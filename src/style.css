@@ -33,46 +33,10 @@ h3 {
   color: white;
   font-size: 18px;
   margin: 20px auto 100px auto;
-  margin-top: 20px;
-  margin-bottom: 100px;
 }
 .btn:hover {
   border: 1px solid var(--primary-color);
   transition: all 200ms ease-in-out;
-}
-.active {
-  color: var(--primary-color) !important;
-}
-.hero {
-  background: #f9f7fe;
-}
-.btn-launch {
-  background: white;
-  padding: 18px 30px;
-  color: var(--primary-color);
-  font-size: 18px;
-  margin-top: 20px;
-  margin-bottom: 100px;
-  border: 1px solid var(--primary-color);
-}
-.btn-launch:hover {
-  transition: all 200ms ease-in-out;
-  background: var(--primary-color);
-  color: white;
-}
-.app-heading {
-  font-family: var(--heading-font);
-  font-size: 64px;
-  font-weight: 700;
-  margin: 40px auto 40px auto;
-}
-.app-img {
-  margin: 25px auto 25px auto;
-}
-.app-text {
-  color: var(--font-color);
-  line-height: 30px;
-  opacity: 70%;
 }
 .active {
   color: var(--primary-color) !important;
