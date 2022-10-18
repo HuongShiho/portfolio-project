@@ -58,23 +58,23 @@ h3 {
   background: var(--primary-color);
   color: white;
 }
-.app-heading {
+.section-heading {
   font-family: var(--heading-font);
   font-size: 64px;
   font-weight: 700;
   margin: 40px auto 40px auto;
 }
-.app-img {
+.section-img {
   margin: 25px auto 25px auto;
 }
-.app-text {
+.section-text {
   color: var(--font-color);
   line-height: 30px;
   opacity: 70%;
   font-size: 16px;
 }
 
-.app-content {
+.section-content {
   margin-left: 30px;
   margin-top: 120px;
   text-align: left;
@@ -82,31 +82,36 @@ h3 {
 .about-content-head {
   font-size: 18px;
 }
-.about {
+.content {
   padding: 100px 10px 100px 10px;
 }
 
-.about .app-heading {
+.content .section-heading {
   line-height: 1.2;
 }
 
+.work-position {
+  font-size: 14px;
+  line-height: 36px;
+}
+
 @media (max-width: 1199px) {
-  .app-heading {
+  .section-heading {
     font-size: 35px;
   }
 }
 
 @media (max-width: 991px) {
-  .app-content {
+  .section-content {
     margin-top: 20px;
   }
   .btn-launch {
     margin-bottom: 50px;
   }
-  .about .btn-purple {
+  .content .btn-purple {
     margin: 10px auto 20px auto;
   }
-  .about .app-content {
+  .content .section-content {
     text-align: center;
   }
 }
@@ -118,14 +123,14 @@ h3 {
     line-height: 1.5;
     font-size: 20px;
   }
-  .app-img {
+  .section-img {
     display: none;
   }
-  .app-content {
+  .section-content {
     margin: 10px;
     text-align: center;
   }
-  .app-heading {
+  .section-heading {
     margin: 20px auto 20px auto;
   }
   .btn-launch {
