@@ -37,9 +37,11 @@ h3 {
   border: 1px solid var(--primary-color);
   transition: all 200ms ease-in-out;
 }
-.active {
+.active,
+.nav-link:hover {
   color: var(--primary-color) !important;
 }
+
 .hero {
   background: #f9f7fe;
   padding-top: 100px;
