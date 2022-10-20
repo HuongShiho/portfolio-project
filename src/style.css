@@ -96,7 +96,21 @@ h3 {
   font-size: 14px;
   line-height: 36px;
 }
-
+footer .bg-grey {
+  background: #f9f7fe;
+}
+footer .contact-mail {
+  display: block;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 30px auto 20px auto;
+  color: black;
+  font-weight: 400;
+}
+footer .fa-brands {
+  text-decoration: none;
+  color: black;
+}
 @media (max-width: 1199px) {
   .section-heading {
     font-size: 35px;
