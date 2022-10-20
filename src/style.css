@@ -2,7 +2,7 @@
   --heading-font: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
   --font-color: #272142;
-  --primary-color: #6c63ff;
+  --primary-color: #93b041;
 }
 body {
   background: white;
@@ -110,6 +110,7 @@ footer .contact-mail {
 footer .fa-brands {
   text-decoration: none;
   color: black;
+  font-size: 25px;
 }
 @media (max-width: 1199px) {
   .section-heading {
